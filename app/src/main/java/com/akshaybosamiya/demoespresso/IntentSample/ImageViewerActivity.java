@@ -13,7 +13,7 @@ import com.akshaybosamiya.demoespresso.R;
 
 public class ImageViewerActivity extends AppCompatActivity {
     @VisibleForTesting
-    protected static final String KEY_IMAGE_DATA = "data";
+    public static final String KEY_IMAGE_DATA = "data";
 
     private static final int REQUEST_IMAGE_CAPTURE = 1;
 
