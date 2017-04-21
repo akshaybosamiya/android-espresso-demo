@@ -8,4 +8,6 @@
     <string name="open_data_adapter_activity">Data Adapter Activity</string>
     <string name="waiting_msg">Waiting for message . . .</string>
     <string name="open_idle_ressource_activity">Idling Reosource Sample</string>
+    <string name="button_open_camera">Take Photo</string>
+    <string name="open_intent_sample_activity">Intent Sample</string>
 </resources>

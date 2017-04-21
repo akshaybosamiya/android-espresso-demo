@@ -58,4 +58,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/open_idle_ressource_activity"/>
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/activityIntentSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/open_intent_sample_activity"/>
 </LinearLayout>

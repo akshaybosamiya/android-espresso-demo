@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.akshaybosamiya.demoespresso.IdlingResourceSample.IdlingResourceActivity;
+import com.akshaybosamiya.demoespresso.IntentSample.ImageViewerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText mEditText;
 
     private Button mButton;
+    private Button intentButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,14 +38,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTextView = (TextView) findViewById(R.id.textToBeChanged);
         mEditText = (EditText) findViewById(R.id.editTextUserInput);
         mButton = (Button)findViewById(R.id.activityIdleResource);
+        intentButton = (Button)findViewById(R.id.activityIntentSample);
 
         mButton.setOnClickListener(this);
+        intentButton.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         // Get the text from the EditText view.
         final String text = mEditText.getText().toString();
+
+        Intent i;
 
         switch (view.getId()) {
             case R.id.changeTextBt:
@@ -69,9 +75,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.activityIdleResource:
-                Intent i = new Intent(this, IdlingResourceActivity.class);
+                i = new Intent(this, IdlingResourceActivity.class);
                 startActivity(i);
                 break;
+
+            case R.id.activityIntentSample:
+                i = new Intent(this, ImageViewerActivity.class);
+                startActivity(i);
             default:
                 break;
         }

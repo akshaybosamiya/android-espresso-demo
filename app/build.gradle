@@ -34,6 +34,11 @@ dependencies {
     //IdlingResource
     compile 'com.android.support.test.espresso:espresso-idling-resource:' + rootProject.espressoVersion;
 
+    //IntentDependancy
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:' + rootProject.espressoVersion;
+
+
+
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
