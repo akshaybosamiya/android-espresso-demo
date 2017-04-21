@@ -5,4 +5,7 @@
     <string name="type_something">type something…</string>
     <string name="open_activity_and_change_text">Open activity and change text</string>
     <string name="hello_akshay">Hello Akshay!</string>
+    <string name="open_data_adapter_activity">Data Adapter Activity</string>
+    <string name="waiting_msg">Waiting for message . . .</string>
+    <string name="open_idle_ressource_activity">Idling Reosource Sample</string>
 </resources>
