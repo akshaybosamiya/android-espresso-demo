@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     mEditText.setError("Type Here!");
                     return;
                 }
-                //mTextView.setText(text);
+               // mTextView.setText(text);
                 break;
             case R.id.activityChangeTextBtn:
                 // Second button's interaction: start an activity and send a message to it.
